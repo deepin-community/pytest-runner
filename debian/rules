@@ -1,0 +1,13 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+export PYBUILD_NAME=pytest-runner
+
+%:
+	dh $@ --with python3 --buildsystem=pybuild
+
+override_dh_installchangelogs:
+	dh_installchangelogs CHANGES.rst
+
+override_dh_auto_test:
+# Tests not enabled because there don't appear to be any tests to run.

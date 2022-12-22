@@ -1,0 +1,47 @@
+pytest-runner (2.11.1-1.2) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Drop python2 support; Closes: #937565
+
+ -- Sandro Tosi <morph@debian.org>  Thu, 02 Apr 2020 10:40:58 -0400
+
+pytest-runner (2.11.1-1.1) unstable; urgency=high
+
+  * Non-maintainer upload.
+  * python-pytest-runner: Add the missing dependencies on
+    python-pkg-resources and python-setuptools. (Closes: #896231)
+  * python3-pytest-runner: Add the missing dependencies on
+    python3-pkg-resources and python3-setuptools. (Closes: #896428)
+
+ -- Adrian Bunk <bunk@debian.org>  Thu, 27 Sep 2018 20:35:32 +0300
+
+pytest-runner (2.11.1-1) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * Distinguish between Py2 and Py3 version in short description
+  * Added upstream changelog
+  * Depend on newer dh-python which sets SETUPTOOLS_SCM_PRETEND_VERSION
+  * wrap-and-sort -t -a
+  * d/copyright
+    - Changed copyright year for new release
+    - Added myself to Debian part
+  * Added python{3,}-pytest to B-D
+  * Removed version from python-all in B-D
+
+  [ Brian May ]
+  * New upstream release.
+  * Update Standards-Version to 4.0.0.
+
+ -- Brian May <bam@debian.org>  Tue, 11 Jul 2017 18:01:58 +1000
+
+pytest-runner (2.7.1-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Brian May <bam@debian.org>  Wed, 06 Apr 2016 13:16:07 +1000
+
+pytest-runner (2.7-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #819853)
+
+ -- Brian May <bam@debian.org>  Sun, 03 Apr 2016 13:53:31 +1000
